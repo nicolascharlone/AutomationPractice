@@ -39,6 +39,7 @@ public class LogInTest {
 	public void signIn() {
 		authenticationPage.signIn(username, password);
 		Assert.assertTrue(myAccountHomePage.accountSuccessfullySignedIn());
+		// test
 	}
 	
 
