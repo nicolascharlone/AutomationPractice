@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13484" started-at="2018-07-13T13:43:43Z" finished-at="2018-07-13T13:43:57Z">
+  <suite name="Default suite" duration-ms="10441" started-at="2018-07-17T19:05:34Z" finished-at="2018-07-17T19:05:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13484" started-at="2018-07-13T13:43:43Z" finished-at="2018-07-13T13:43:57Z">
-      <class name="Tests.LogInTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.LogInTest@5c3bd550]" name="setUp" is-config="true" duration-ms="11595" started-at="2018-07-13T13:43:43Z" finished-at="2018-07-13T13:43:55Z">
+    <test name="Default test" duration-ms="10441" started-at="2018-07-17T19:05:34Z" finished-at="2018-07-17T19:05:44Z">
+      <class name="Tests.SearchTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.SearchTests@5c3bd550]" name="setUp" is-config="true" duration-ms="9137" started-at="2018-07-17T19:05:34Z" finished-at="2018-07-17T19:05:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signIn()[pri:0, instance:Tests.LogInTest@5c3bd550]" name="signIn" duration-ms="1861" started-at="2018-07-13T13:43:55Z" finished-at="2018-07-13T13:43:57Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:Tests.SearchTests@5c3bd550]" name="search" duration-ms="1284" started-at="2018-07-17T19:05:43Z" finished-at="2018-07-17T19:05:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signIn -->
-      </class> <!-- Tests.LogInTest -->
+        </test-method> <!-- search -->
+      </class> <!-- Tests.SearchTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
