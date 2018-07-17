@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10441" started-at="2018-07-17T19:05:34Z" finished-at="2018-07-17T19:05:44Z">
+  <suite name="Default suite" duration-ms="13568" started-at="2018-07-17T19:50:34Z" finished-at="2018-07-17T19:50:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10441" started-at="2018-07-17T19:05:34Z" finished-at="2018-07-17T19:05:44Z">
+    <test name="Default test" duration-ms="13568" started-at="2018-07-17T19:50:34Z" finished-at="2018-07-17T19:50:47Z">
       <class name="Tests.SearchTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.SearchTests@5c3bd550]" name="setUp" is-config="true" duration-ms="9137" started-at="2018-07-17T19:05:34Z" finished-at="2018-07-17T19:05:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.SearchTests@5c3bd550]" name="setUp" is-config="true" duration-ms="8823" started-at="2018-07-17T19:50:34Z" finished-at="2018-07-17T19:50:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="search()[pri:0, instance:Tests.SearchTests@5c3bd550]" name="search" duration-ms="1284" started-at="2018-07-17T19:05:43Z" finished-at="2018-07-17T19:05:44Z">
+        <test-method status="PASS" signature="searchValidString()[pri:0, instance:Tests.SearchTests@5c3bd550]" name="searchValidString" duration-ms="1705" started-at="2018-07-17T19:50:43Z" finished-at="2018-07-17T19:50:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
+        </test-method> <!-- searchValidString -->
+        <test-method status="PASS" signature="searchInvalidString()[pri:1, instance:Tests.SearchTests@5c3bd550]" name="searchInvalidString" duration-ms="3012" started-at="2018-07-17T19:50:44Z" finished-at="2018-07-17T19:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInvalidString -->
       </class> <!-- Tests.SearchTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
