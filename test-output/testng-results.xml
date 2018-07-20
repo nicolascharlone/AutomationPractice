@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13568" started-at="2018-07-17T19:50:34Z" finished-at="2018-07-17T19:50:47Z">
+  <suite name="Default suite" duration-ms="19927" started-at="2018-07-20T19:23:05Z" finished-at="2018-07-20T19:23:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13568" started-at="2018-07-17T19:50:34Z" finished-at="2018-07-17T19:50:47Z">
-      <class name="Tests.SearchTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.SearchTests@5c3bd550]" name="setUp" is-config="true" duration-ms="8823" started-at="2018-07-17T19:50:34Z" finished-at="2018-07-17T19:50:43Z">
+    <test name="Default test" duration-ms="19927" started-at="2018-07-20T19:23:05Z" finished-at="2018-07-20T19:23:25Z">
+      <class name="Tests.BuyShortTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BuyShortTest@5c3bd550]" name="setup" is-config="true" duration-ms="7851" started-at="2018-07-20T19:23:05Z" finished-at="2018-07-20T19:23:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchValidString()[pri:0, instance:Tests.SearchTests@5c3bd550]" name="searchValidString" duration-ms="1705" started-at="2018-07-17T19:50:43Z" finished-at="2018-07-17T19:50:44Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:Tests.BuyShortTest@5c3bd550]" name="searchProduct" duration-ms="1931" started-at="2018-07-20T19:23:13Z" finished-at="2018-07-20T19:23:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchValidString -->
-        <test-method status="PASS" signature="searchInvalidString()[pri:1, instance:Tests.SearchTests@5c3bd550]" name="searchInvalidString" duration-ms="3012" started-at="2018-07-17T19:50:44Z" finished-at="2018-07-17T19:50:47Z">
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="addToCartCheckOut()[pri:1, instance:Tests.BuyShortTest@5c3bd550]" name="addToCartCheckOut" duration-ms="3095" started-at="2018-07-20T19:23:15Z" finished-at="2018-07-20T19:23:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchInvalidString -->
-      </class> <!-- Tests.SearchTests -->
+        </test-method> <!-- addToCartCheckOut -->
+        <test-method status="PASS" signature="proceedFromCartSummary()[pri:2, instance:Tests.BuyShortTest@5c3bd550]" name="proceedFromCartSummary" duration-ms="2283" started-at="2018-07-20T19:23:18Z" finished-at="2018-07-20T19:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedFromCartSummary -->
+        <test-method status="PASS" signature="signIn()[pri:3, instance:Tests.BuyShortTest@5c3bd550]" name="signIn" duration-ms="1936" started-at="2018-07-20T19:23:21Z" finished-at="2018-07-20T19:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="addCommentAndProceed()[pri:4, instance:Tests.BuyShortTest@5c3bd550]" name="addCommentAndProceed" duration-ms="1453" started-at="2018-07-20T19:23:22Z" finished-at="2018-07-20T19:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCommentAndProceed -->
+        <test-method status="PASS" signature="proceedFromShipping()[pri:5, instance:Tests.BuyShortTest@5c3bd550]" name="proceedFromShipping" duration-ms="1350" started-at="2018-07-20T19:23:24Z" finished-at="2018-07-20T19:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedFromShipping -->
+      </class> <!-- Tests.BuyShortTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

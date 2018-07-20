@@ -31,6 +31,9 @@ public class AuthenticationPage {
 	@FindBy(how = How.CSS, using = "#SubmitLogin")
 	private WebElement signInBtn;
 	
+	@FindBy(how = How.CSS, using = ".row")
+	private WebElement row;
+	
 	//Methods
 	
 	public void signIn(String username, String password) {
@@ -41,6 +44,10 @@ public class AuthenticationPage {
 	
 	public void clickCreateAnAccountBtn() {
 		submitCreateBtn.click();
+	}
+	
+	public boolean isRowDisplayed() {
+		return row.isDisplayed();
 	}
 
 }

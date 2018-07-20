@@ -15,10 +15,10 @@ import PageObjects.MyAccountHomePage;
 public class LogInTest {
 	
 	WebDriver driver;
+	private String url = "http://automationpractice.com/index.php";
 	private IndexPage indexPage;
 	private AuthenticationPage authenticationPage;
 	private MyAccountHomePage myAccountHomePage;
-	private String url = "http://automationpractice.com/index.php";
 	
 	private String username = "ncharlone@altimetrik.com";
 	private String password = "Altimetrik123";
